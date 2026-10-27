@@ -1,0 +1,25 @@
+name: Tests
+on: [push, pull_request]
+jobs:
+  technik:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python: ["3.10", "3.11", "3.12", "3.13"]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python }}
+      - run: pip install -r technik/requirements.txt
+      - run: cd technik && python -m pytest -q
+      - run: cd technik && python beispiele/beispiele_pruefen.py
+  rechner:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install openpyxl
+      - run: python werkzeuge/kontrollrechnung.py unternehmer/KI-Wirtschaftlichkeitsrechner.xlsx

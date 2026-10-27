@@ -1,0 +1,34 @@
+{
+  "beschreibung": "Einzelpreis 13,90 statt 12,50 Euro",
+  "eingabe": {
+    "bestellnummer": "4500123",
+    "lieferant": "Müller Baubedarf GmbH",
+    "ab_datum": "2026-10-20",
+    "positionen": [
+      {
+        "pos": "1",
+        "artikelnr_lieferant": "AB-123",
+        "bezeichnung": "Schraube 6x60",
+        "menge": 10,
+        "einheit": "Stk",
+        "einzelpreis_netto": 13.9,
+        "preiseinheit": null,
+        "rabatt_prozent": null,
+        "positionswert_netto": 139.0,
+        "liefertermin": "2026-11-10"
+      }
+    ],
+    "gesamtbetrag_netto": 139.0,
+    "waehrung": "EUR",
+    "hinweise": [],
+    "unvollstaendig_lesbar": false
+  },
+  "absender": "Müller Baubedarf <ab@mueller-bau.de>",
+  "authentifiziert": true,
+  "erwartet": {
+    "status": "markiert",
+    "befunde_enthalten": [
+      "Preis"
+    ]
+  }
+}

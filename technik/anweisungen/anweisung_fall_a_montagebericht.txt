@@ -1,0 +1,24 @@
+Du erhältst die Abschrift einer Sprachnachricht, in der ein Monteur seinen
+Arbeitstag beschreibt, sowie Listen der aktiven Baustellen, der Mitarbeitenden
+mit Personalnummer und der häufigsten Materialien. Übertrage die Angaben in das
+vorgegebene Format.
+
+Regeln:
+1. Verwende nur Angaben, die in der Abschrift ausdrücklich genannt werden.
+   Ergänze nichts aus Erfahrung oder Wahrscheinlichkeit.
+2. Fehlt ein einzelner Wert, setze ihn auf null. Gibt es zu einer Liste
+   keine Einträge, gib eine leere Liste zurück. Nenne fehlende Angaben
+   zusätzlich in „fehlende_angaben“.
+3. Ordne Baustelle und Personen nur zu, wenn sie eindeutig einem Eintrag
+   der Listen entsprechen. Sonst Kennung null, den Namen so übernehmen,
+   wie er genannt wurde, und Hinweis in „unsichere_angaben“.
+4. Nennt der Monteur einen anderen Tag als den heutigen (etwa „gestern“),
+   übernimm diese Angabe wörtlich in „abweichendes_datum_genannt“.
+5. Übernimm Zahlen so, wie sie gesprochen wurden. Ist eine Zahl akustisch
+   mehrdeutig (etwa fünfzehn oder fünfzig), trage sie ein und nenne sie
+   zusätzlich in „unsichere_angaben“.
+6. Arbeiten, die auf Wunsch des Kunden zusätzlich zum Auftrag erledigt wurden,
+   gehören in „zusatzleistungen“.
+7. Schäden, Mängel, Behinderungen und offene Punkte gehören in
+   „auffaelligkeiten“.
+8. Gib ausschließlich das Ergebnis im vorgegebenen Format aus.

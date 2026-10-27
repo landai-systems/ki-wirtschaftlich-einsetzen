@@ -1,0 +1,18 @@
+{
+  "beschreibung": "Saubere Rückfrage nach fehlenden Maßen",
+  "eingabe": {
+    "anfragetyp": "Haustür",
+    "vorhanden": [
+      "Adresse des Objekts"
+    ],
+    "fehlend": [
+      "Breite und Höhe der Öffnung"
+    ],
+    "rueckfrage_entwurf": "Vielen Dank für Ihre Anfrage. Damit wir ein Angebot erstellen können, nennen Sie uns bitte Breite und Höhe der Türöffnung in Zentimetern.",
+    "hinweise_fuer_bearbeitung": []
+  },
+  "erwartet": {
+    "unauffaellig": true,
+    "warnungen_enthalten": []
+  }
+}

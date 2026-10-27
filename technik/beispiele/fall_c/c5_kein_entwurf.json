@@ -1,0 +1,20 @@
+{
+  "beschreibung": "Angaben fehlen, aber kein Entwurf",
+  "eingabe": {
+    "anfragetyp": "Haustür",
+    "vorhanden": [
+      "Adresse des Objekts"
+    ],
+    "fehlend": [
+      "Breite und Höhe der Öffnung"
+    ],
+    "rueckfrage_entwurf": null,
+    "hinweise_fuer_bearbeitung": []
+  },
+  "erwartet": {
+    "unauffaellig": false,
+    "warnungen_enthalten": [
+      "kein Rückfrage-Entwurf"
+    ]
+  }
+}

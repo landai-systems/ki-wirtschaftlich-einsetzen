@@ -1,0 +1,146 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "bestellnummer",
+    "lieferant",
+    "ab_datum",
+    "positionen",
+    "gesamtbetrag_netto",
+    "waehrung",
+    "hinweise",
+    "unvollstaendig_lesbar"
+  ],
+  "properties": {
+    "bestellnummer": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "lieferant": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "ab_datum": {
+      "anyOf": [
+        {
+          "type": "string",
+          "format": "date"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "positionen": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "pos",
+          "artikelnr_lieferant",
+          "bezeichnung",
+          "menge",
+          "einheit",
+          "einzelpreis_netto",
+          "preiseinheit",
+          "rabatt_prozent",
+          "positionswert_netto",
+          "liefertermin"
+        ],
+        "properties": {
+          "pos": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "artikelnr_lieferant": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "bezeichnung": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "menge": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "einheit": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "einzelpreis_netto": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "preiseinheit": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "rabatt_prozent": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "positionswert_netto": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "liefertermin": {
+            "anyOf": [
+              {
+                "type": "string",
+                "format": "date"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "gesamtbetrag_netto": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "waehrung": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "hinweise": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "unvollstaendig_lesbar": {
+      "type": "boolean"
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "beschreibung": "Person nicht zugeordnet und Material außerhalb des Katalogs",
+  "eingabe": {
+    "baustelle_id": "BS-2026-014",
+    "abweichendes_datum_genannt": null,
+    "personen": [
+      {
+        "mitarbeiter_id": "M101",
+        "name_wie_genannt": "Jonas",
+        "stunden": 8
+      },
+      {
+        "mitarbeiter_id": null,
+        "name_wie_genannt": "der Neue",
+        "stunden": 6
+      }
+    ],
+    "material": [
+      {
+        "bezeichnung": "Silikon",
+        "katalog_nr": "X-1",
+        "menge": 1,
+        "einheit": "Stk"
+      }
+    ],
+    "zusatzleistungen": [],
+    "auffaelligkeiten": [],
+    "fehlende_angaben": [],
+    "unsichere_angaben": []
+  },
+  "erwartet": {
+    "unauffaellig": false,
+    "warnungen_enthalten": [
+      "nicht eindeutig zugeordnet",
+      "nicht im Katalog"
+    ]
+  }
+}

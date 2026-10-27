@@ -1,0 +1,22 @@
+{
+  "beschreibung": "Entwurf enthält Preis- und Terminzusage",
+  "eingabe": {
+    "anfragetyp": "Haustür",
+    "vorhanden": [
+      "Adresse des Objekts"
+    ],
+    "fehlend": [
+      "Breite und Höhe der Öffnung"
+    ],
+    "rueckfrage_entwurf": "Wir garantieren Ihnen die Montage in 2 Wochen zum Festpreis von 1.250,00 Euro.",
+    "hinweise_fuer_bearbeitung": []
+  },
+  "erwartet": {
+    "unauffaellig": false,
+    "warnungen_enthalten": [
+      "Zusage",
+      "Termin",
+      "Geldbetrag"
+    ]
+  }
+}

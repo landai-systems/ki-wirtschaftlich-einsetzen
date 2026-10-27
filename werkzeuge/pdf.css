@@ -1,0 +1,15 @@
+@page { size: A4; margin: 18mm 18mm 20mm 18mm; }
+body { font-family: "Liberation Sans", Arial, sans-serif; font-size: 10.5pt; line-height: 1.45; color: #1a1a1a; }
+header#title-block-header { border-bottom: 3px solid #1F3864; margin-bottom: 14pt; padding-bottom: 6pt; }
+h1.title { font-size: 20pt; color: #1F3864; margin: 0 0 2pt 0; }
+p.subtitle { font-size: 10pt; color: #555; margin: 0; }
+h1 { font-size: 13pt; color: #1F3864; margin: 14pt 0 5pt 0; break-after: avoid; }
+p { margin: 0 0 6pt 0; }
+table { border-collapse: collapse; width: 100%; margin: 6pt 0 10pt 0; font-size: 9.5pt; break-inside: avoid; }
+th { background: #D9E1F2; text-align: left; }
+th, td { border: 1px solid #BFBFBF; padding: 3pt 5pt; vertical-align: top; }
+td:empty::after { content: "\00a0"; }
+strong { color: #1F3864; }
+hr { border: none; border-top: 1px solid #BFBFBF; margin: 10pt 0; }
+em { color: #555; }
+ol, ul { margin: 0 0 6pt 0; padding-left: 18pt; }

@@ -1,0 +1,40 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "anfragetyp",
+    "vorhanden",
+    "fehlend",
+    "rueckfrage_entwurf",
+    "hinweise_fuer_bearbeitung"
+  ],
+  "properties": {
+    "anfragetyp": {
+      "type": "string"
+    },
+    "vorhanden": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "fehlend": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "rueckfrage_entwurf": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "hinweise_fuer_bearbeitung": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  }
+}

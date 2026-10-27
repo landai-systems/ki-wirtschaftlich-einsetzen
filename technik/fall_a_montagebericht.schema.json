@@ -1,0 +1,142 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "baustelle_id",
+    "abweichendes_datum_genannt",
+    "personen",
+    "material",
+    "zusatzleistungen",
+    "auffaelligkeiten",
+    "fehlende_angaben",
+    "unsichere_angaben"
+  ],
+  "properties": {
+    "baustelle_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "abweichendes_datum_genannt": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "personen": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "mitarbeiter_id",
+          "name_wie_genannt",
+          "stunden"
+        ],
+        "properties": {
+          "mitarbeiter_id": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "name_wie_genannt": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "stunden": {
+            "type": [
+              "number",
+              "null"
+            ]
+          }
+        }
+      }
+    },
+    "material": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "bezeichnung",
+          "menge",
+          "einheit",
+          "katalog_nr"
+        ],
+        "properties": {
+          "bezeichnung": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "menge": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "einheit": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "katalog_nr": {
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        }
+      }
+    },
+    "zusatzleistungen": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "beschreibung",
+          "stunden"
+        ],
+        "properties": {
+          "beschreibung": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "stunden": {
+            "type": [
+              "number",
+              "null"
+            ]
+          }
+        }
+      }
+    },
+    "auffaelligkeiten": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "fehlende_angaben": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "unsichere_angaben": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "beschreibung": "Baustelle nicht aktiv",
+  "eingabe": {
+    "baustelle_id": "BS-2025-099",
+    "abweichendes_datum_genannt": null,
+    "personen": [
+      {
+        "mitarbeiter_id": "M101",
+        "name_wie_genannt": "Jonas",
+        "stunden": 8
+      },
+      {
+        "mitarbeiter_id": "M102",
+        "name_wie_genannt": "Ali",
+        "stunden": 7.5
+      }
+    ],
+    "material": [
+      {
+        "bezeichnung": "Dichtband 15 mm",
+        "katalog_nr": "K-4711",
+        "menge": 2,
+        "einheit": "Rolle"
+      }
+    ],
+    "zusatzleistungen": [],
+    "auffaelligkeiten": [],
+    "fehlende_angaben": [],
+    "unsichere_angaben": []
+  },
+  "erwartet": {
+    "unauffaellig": false,
+    "warnungen_enthalten": [
+      "nicht aktiv"
+    ]
+  }
+}

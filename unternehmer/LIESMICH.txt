@@ -1,0 +1,32 @@
+KI wirtschaftlich einsetzen – Unternehmerpaket, Version 1.0
+Kostenloses Begleitmaterial zum gleichnamigen Buch von Maximilian Rosen
+
+Beginnen Sie mit der Kurzanleitung.
+
+Enthaltene Dateien
+------------------
+Kurzanleitung.pdf
+    Wie Sie den Rechner ausfüllen und die Ergebnisse lesen (3 Seiten).
+
+KI-Wirtschaftlichkeitsrechner.xlsx
+    Der Rechner für Excel. Blatt „Start“ öffnen, dann Blatt „Mein Vorhaben“ ausfüllen.
+    Keine Makros, keine Internetverbindung, kein Kennwort. Die übrigen Blätter enthalten
+    alle Rechnungen des Buches.
+
+Entscheidungshilfe.pdf
+    Sieben Fragen, ob sich KI für einen bestimmten Vorgang lohnt oder nicht (2 Seiten).
+
+Dienstleister-Checkliste.pdf
+    Was in Angebot und Auftrag an einen IT-Dienstleister gehört, mit Vergleichstabelle (2 Seiten).
+
+Beispieldaten/Beispiel_Ausgangsmessung.xlsx
+    Konstruiertes Beispiel, wie man Vorgänge zählt und Bearbeitungszeiten misst.
+    Enthält keine echten Unternehmens- oder Personendaten.
+
+Hinweise
+--------
+Die Ergebnisse sind Modellrechnungen mit Ihren Annahmen, keine Zusage einer Zeitersparnis oder
+Rentabilität und keine Steuer- oder Rechtsberatung. Preisstand der Beispiele: 23.10.2026.
+
+Für die technische Umsetzung gibt es das getrennte Technikpaket für IT-Verantwortliche und Dienstleister:
+https://github.com/landai-systems/ki-wirtschaftlich-einsetzen

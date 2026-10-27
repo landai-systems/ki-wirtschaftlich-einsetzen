@@ -1,0 +1,20 @@
+{
+  "beschreibung": "Entwurf fragt nach Kontodaten",
+  "eingabe": {
+    "anfragetyp": "Haustür",
+    "vorhanden": [
+      "Adresse des Objekts"
+    ],
+    "fehlend": [
+      "Breite und Höhe der Öffnung"
+    ],
+    "rueckfrage_entwurf": "Bitte senden Sie uns vorab Ihre Kontodaten.",
+    "hinweise_fuer_bearbeitung": []
+  },
+  "erwartet": {
+    "unauffaellig": false,
+    "warnungen_enthalten": [
+      "Bankverbindung"
+    ]
+  }
+}

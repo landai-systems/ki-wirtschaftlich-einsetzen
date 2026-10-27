@@ -1,0 +1,18 @@
+{
+  "bestellnummer": "4500123",
+  "lieferant": "Müller Baubedarf GmbH",
+  "lieferant_domains": [
+    "mueller-bau.de"
+  ],
+  "positionen": [
+    {
+      "artikelnr_lieferant": "AB-123",
+      "menge": 10,
+      "einheit": "Stk",
+      "einzelpreis_netto": 12.5,
+      "preiseinheit": null,
+      "rabatt_prozent": null,
+      "liefertermin": "2026-11-10"
+    }
+  ]
+}
